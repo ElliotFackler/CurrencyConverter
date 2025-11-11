@@ -9,7 +9,8 @@ import java.net.http.HttpResponse;
 import com.google.gson.Gson; // Required for JSON parsing
 import com.google.gson.reflect.TypeToken; // Helper for Gson
 
-
+// Compile: javac -cp ".;lib\gson-2.10.1.jar" Converter.java
+// Run: java  -cp ".;lib\gson-2.10.1.jar" Converter
 
 public class Converter {
     private static final String API_KEY = "e247acbf326ebef115b500f3";
